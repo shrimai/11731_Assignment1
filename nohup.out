@@ -1,0 +1,136 @@
+[dynet] initializing CUDA
+Request for 1 GPU ...
+[dynet] Device Number: 0
+[dynet]   Device name: Tesla K80
+[dynet]   Memory Clock Rate (KHz): 2505000
+[dynet]   Memory Bus Width (bits): 384
+[dynet]   Peak Memory Bandwidth (GB/s): 240.48
+[dynet]   Memory Free (GB): 0.308412/11.9956
+[dynet]
+[dynet] Device Number: 1
+[dynet]   Device name: Tesla K80
+[dynet]   Memory Clock Rate (KHz): 2505000
+[dynet]   Memory Bus Width (bits): 384
+[dynet]   Peak Memory Bandwidth (GB/s): 240.48
+[dynet]   Memory Free (GB): 0.309461/11.9956
+[dynet]
+[dynet] Device Number: 2
+[dynet]   Device name: Tesla K80
+[dynet]   Memory Clock Rate (KHz): 2505000
+[dynet]   Memory Bus Width (bits): 384
+[dynet]   Peak Memory Bandwidth (GB/s): 240.48
+[dynet]   Memory Free (GB): 1.35594/11.9956
+[dynet]
+[dynet] Device Number: 3
+[dynet]   Device name: Tesla K80
+[dynet]   Memory Clock Rate (KHz): 2505000
+[dynet]   Memory Bus Width (bits): 384
+[dynet]   Peak Memory Bandwidth (GB/s): 240.48
+[dynet]   Memory Free (GB): 0.308412/11.9956
+[dynet]
+[dynet] Device Number: 4
+[dynet]   Device name: Tesla K80
+[dynet]   Memory Clock Rate (KHz): 2505000
+[dynet]   Memory Bus Width (bits): 384
+[dynet]   Peak Memory Bandwidth (GB/s): 240.48
+[dynet]   Memory Free (GB): 0.308412/11.9956
+[dynet]
+[dynet] Device Number: 5
+[dynet]   Device name: Tesla K80
+[dynet]   Memory Clock Rate (KHz): 2505000
+[dynet]   Memory Bus Width (bits): 384
+[dynet]   Peak Memory Bandwidth (GB/s): 240.48
+[dynet]   Memory Free (GB): 0.308412/11.9956
+[dynet]
+[dynet] Device Number: 6
+[dynet]   Device name: Tesla K80
+[dynet]   Memory Clock Rate (KHz): 2505000
+[dynet]   Memory Bus Width (bits): 384
+[dynet]   Peak Memory Bandwidth (GB/s): 240.48
+[dynet]   Memory Free (GB): 11.927/11.9956
+[dynet]
+[dynet] Device Number: 7
+[dynet]   Device name: Tesla K80
+[dynet]   Memory Clock Rate (KHz): 2505000
+[dynet]   Memory Bus Width (bits): 384
+[dynet]   Peak Memory Bandwidth (GB/s): 240.48
+[dynet]   Memory Free (GB): 11.927/11.9956
+[dynet]
+[dynet] Device(s) selected: 6
+[dynet] random seed: 646583727
+[dynet] allocating memory: 10000MB
+[dynet] memory allocation done.
+loading model
+done 71
+generating sentences
+Traceback (most recent call last):
+  File "vmini_drop.py", line 395, in <module>
+    net.calculate_bleu_score()
+  File "vmini_drop.py", line 340, in calculate_bleu_score
+    decoded_test_sent = self.generate(sent, enc_fwd_lstm, enc_bwd_lstm, dec_lstm)
+NameError: global name 'enc_fwd_lstm' is not defined
+[dynet] initializing CUDA
+Request for 1 GPU ...
+[dynet] Device Number: 0
+[dynet]   Device name: Tesla K80
+[dynet]   Memory Clock Rate (KHz): 2505000
+[dynet]   Memory Bus Width (bits): 384
+[dynet]   Peak Memory Bandwidth (GB/s): 240.48
+[dynet]   Memory Free (GB): 0.308412/11.9956
+[dynet]
+[dynet] Device Number: 1
+[dynet]   Device name: Tesla K80
+[dynet]   Memory Clock Rate (KHz): 2505000
+[dynet]   Memory Bus Width (bits): 384
+[dynet]   Peak Memory Bandwidth (GB/s): 240.48
+[dynet]   Memory Free (GB): 11.927/11.9956
+[dynet]
+[dynet] Device Number: 2
+[dynet]   Device name: Tesla K80
+[dynet]   Memory Clock Rate (KHz): 2505000
+[dynet]   Memory Bus Width (bits): 384
+[dynet]   Peak Memory Bandwidth (GB/s): 240.48
+[dynet]   Memory Free (GB): 1.35594/11.9956
+[dynet]
+[dynet] Device Number: 3
+[dynet]   Device name: Tesla K80
+[dynet]   Memory Clock Rate (KHz): 2505000
+[dynet]   Memory Bus Width (bits): 384
+[dynet]   Peak Memory Bandwidth (GB/s): 240.48
+[dynet]   Memory Free (GB): 0.308412/11.9956
+[dynet]
+[dynet] Device Number: 4
+[dynet]   Device name: Tesla K80
+[dynet]   Memory Clock Rate (KHz): 2505000
+[dynet]   Memory Bus Width (bits): 384
+[dynet]   Peak Memory Bandwidth (GB/s): 240.48
+[dynet]   Memory Free (GB): 0.308412/11.9956
+[dynet]
+[dynet] Device Number: 5
+[dynet]   Device name: Tesla K80
+[dynet]   Memory Clock Rate (KHz): 2505000
+[dynet]   Memory Bus Width (bits): 384
+[dynet]   Peak Memory Bandwidth (GB/s): 240.48
+[dynet]   Memory Free (GB): 0.308412/11.9956
+[dynet]
+[dynet] Device Number: 6
+[dynet]   Device name: Tesla K80
+[dynet]   Memory Clock Rate (KHz): 2505000
+[dynet]   Memory Bus Width (bits): 384
+[dynet]   Peak Memory Bandwidth (GB/s): 240.48
+[dynet]   Memory Free (GB): 11.927/11.9956
+[dynet]
+[dynet] Device Number: 7
+[dynet]   Device name: Tesla K80
+[dynet]   Memory Clock Rate (KHz): 2505000
+[dynet]   Memory Bus Width (bits): 384
+[dynet]   Peak Memory Bandwidth (GB/s): 240.48
+[dynet]   Memory Free (GB): 11.927/11.9956
+[dynet]
+[dynet] Device(s) selected: 1
+[dynet] random seed: 747279082
+[dynet] allocating memory: 10000MB
+[dynet] memory allocation done.
+loading model
+done 71
+generating sentences
